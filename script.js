@@ -304,6 +304,7 @@ const segundos = 1000;
 const minutos = segundos * 60;
 const horas = minutos * 60;
 const dias = horas * 24;
+const anos = dias * 365.241;
 function contadorDias() {
     var result = document.querySelector('#result');
     let dataNasc = document.querySelector("#inicio").value;
@@ -326,9 +327,9 @@ function contadorDias() {
         })
     } else {
         contar = fim.getTime() - inicio.getTime();
-        ano = fim.getYear() - inicio.getYear()
+        ano = contar / anos
         total = contar / dias;
-        result.innerHTML = (`Idade: <b>${ano}</b> anos. <br> Idade em dias: <b>${total.toLocaleString('pt-BR')}</b> dias.`);
+        result.innerHTML = (`Idade: <b>${parseInt(ano)}</b> anos. <br> Idade em dias: <b>${total.toLocaleString('pt-BR')}</b> dias.`);
     }
 }
 function contadorHoras() {
@@ -353,9 +354,9 @@ function contadorHoras() {
         })
     } else {
         contar = fim.getTime() - inicio.getTime();
-        ano = fim.getYear() - inicio.getYear()
+        ano = contar / anos
         total = contar / horas;
-        result.innerHTML = (`Idade: <b>${ano}</b> anos. <br> Idade em horas: <b>${total.toLocaleString('pt-BR')}</b> horas.`);
+        result.innerHTML = (`Idade: <b>${parseInt(ano)}</b> anos. <br> Idade em horas: <b>${total.toLocaleString('pt-BR')}</b> horas.`);
     }
 }
 function antecessor() {
