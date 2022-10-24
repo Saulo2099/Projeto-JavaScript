@@ -11,9 +11,17 @@
         background-position: 0% 50%;
     }
 }
-
+body{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
 main {
-    margin: 120px;
+    min-width: 250px;    
+    
+    margin: 70px;
     font-size: 23px;
     font-family: 'Times New Roman', Times, serif;
 
@@ -43,7 +51,8 @@ img {
 }
 
 .efeito-vidro {
-    width: 40%;
+    width: 250px;
+    width: 80%;
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 8px 32px 0 rgba(1, 1, 2, 0.555);
     backdrop-filter: blur(13.5px);
@@ -53,6 +62,7 @@ img {
 }
 
 .enefeito-vidro {
+    width: 250px;
     width: 70%;
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 8px 32px 0 rgba(1, 1, 2, 0.555);
@@ -113,6 +123,7 @@ img {
 }
 
 button {
+
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     width: 6rem;
@@ -322,3 +333,7 @@ input[type=radio]:checked+label::after {
     text-align: right;
     padding: 5px;
 }/*FIM*/
+@media screen and (min-width: 300px) {
+
+    
+}
