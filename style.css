@@ -1,6 +1,6 @@
 @keyframes colors {
     0% {
-        background-peosition: 0% 50%;
+        background-position: 0% 50%;
     }
 
     50% {
@@ -11,6 +11,7 @@
         background-position: 0% 50%;
     }
 }
+
 body{
     display: flex;
     align-items: center;
@@ -19,9 +20,15 @@ body{
     justify-content: center;
 }
 main {
-    width: 100%;  
-    
-    margin: 70px;
+    width: 100%;
+    margin-top: 25%;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.entrada {
+    width: 100%;
+    margin-top: 10%;
     font-size: 23px;
     font-family: 'Times New Roman', Times, serif;
 
@@ -46,13 +53,9 @@ img {
     
 }
 
-.entrada {
-    margin: 80px;
-}
-
 .efeito-vidro {
     
-    width: 80%;
+    width: 110%;
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 8px 32px 0 rgba(1, 1, 2, 0.555);
     backdrop-filter: blur(13.5px);
@@ -335,10 +338,10 @@ input[type=radio]:checked+label::after {
     text-align: right;
     padding: 5px;
 }/*FIM*/
-
 @media screen and (max-width: 500px) {
     main{
-        width: 100%;
+        width: 50%;
     }
+
     
 }
