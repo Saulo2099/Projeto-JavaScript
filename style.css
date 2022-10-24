@@ -20,7 +20,7 @@ body{
     justify-content: center;
 }
 main {
-    width: 100%;
+    width: 110%;
     margin-top: 25%;
     font-size: 23px;
     font-family: 'Times New Roman', Times, serif;
@@ -55,7 +55,7 @@ img {
 
 .efeito-vidro {
     
-    width: 110%;
+    width: 120%;
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 8px 32px 0 rgba(1, 1, 2, 0.555);
     backdrop-filter: blur(13.5px);
@@ -66,7 +66,7 @@ img {
 
 .enefeito-vidro {
     
-    width: 70%;
+    width: 90%;
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 8px 32px 0 rgba(1, 1, 2, 0.555);
     backdrop-filter: blur(13.5px);
