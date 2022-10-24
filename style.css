@@ -1,6 +1,6 @@
 @keyframes colors {
     0% {
-        background-position: 0% 50%;
+        background-peosition: 0% 50%;
     }
 
     50% {
@@ -335,3 +335,10 @@ input[type=radio]:checked+label::after {
     text-align: right;
     padding: 5px;
 }/*FIM*/
+
+@media screen and (max-width: 500px) {
+    main{
+        width: 100%;
+    }
+    
+}
