@@ -51,7 +51,7 @@ img {
 }
 
 .efeito-vidro {
-    width: 250px;
+    
     width: 80%;
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 8px 32px 0 rgba(1, 1, 2, 0.555);
@@ -62,7 +62,7 @@ img {
 }
 
 .enefeito-vidro {
-    width: 250px;
+    
     width: 70%;
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 8px 32px 0 rgba(1, 1, 2, 0.555);
@@ -112,6 +112,7 @@ img {
 
 
 #imc input {
+    min-width: 100px;
     text-align: center;
     width: 10rem;
     border: 0;
@@ -333,7 +334,9 @@ input[type=radio]:checked+label::after {
     text-align: right;
     padding: 5px;
 }/*FIM*/
-@media screen and (min-width: 300px) {
-
+@media screen and (min-width: 250px) {
+    button {
+        min-width: 100px;
+    }
     
 }
